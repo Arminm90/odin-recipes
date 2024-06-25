@@ -1,4 +1,18 @@
-html {
+main > div > div {
+}
+.group1 + div + div {
+}
+.group1 ~ div {
+}
+.emojify::before {
+  content: '😎 🥸 🤓';
+}
+
+.emojify::after {
+  content: '🤓 🥸 😎';
+}
+
+/* html {
   font-family: sans-serif;
 }
 
@@ -33,4 +47,4 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
-}
+} */
