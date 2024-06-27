@@ -7,7 +7,6 @@ main > div > div {
 .emojify::before {
   content: '😎 🥸 🤓';
 }
-
 .emojify::after {
   content: '🤓 🥸 😎';
 }
